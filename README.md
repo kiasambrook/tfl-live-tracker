@@ -11,4 +11,6 @@ A Raspberry Pi app to track live bus and tube arrivals using the TfL API.
    git clone https://github.com/your-username/TfL-Live-Tracker.git
    ```
 2. Install dependencies
-   `pip install -r requirements.txt`
+    ```bash
+   pip install -r requirements.txt
+   ```
