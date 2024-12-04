@@ -1,0 +1,25 @@
+#:kivy 1.0.0
+
+<StationDropdown>:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    Button:
+        id: main_button
+        text: "Select an option"
+        size_hint: 1, None
+        height: 50
+        on_release: root.open_dropdown(self)
+
+    Label:
+        id: selected_label
+        text: "Selected: None"
+        size_hint: 1, None
+        height: 50
+
+    Label:
+        id: selected_value_label
+        text: "Value: None"
+        size_hint: 1, None
+        height: 50
