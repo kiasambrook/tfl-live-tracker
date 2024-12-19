@@ -52,3 +52,4 @@ wsproto==1.2.0
 yarl==1.11.1
 requests-mock
 pytest
+requests-cache
